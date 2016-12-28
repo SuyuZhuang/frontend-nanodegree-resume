@@ -1,4 +1,15 @@
-body,
+body {
+    position: relative;
+    height: 100%;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    width: 990px;
+    margin: 0 auto;
+    color: #333;
+    }
+
 div,
 ul,
 li,
@@ -13,6 +24,7 @@ h6 {
   margin:0;
   font-family: "Roboto", sans-serif;
 }
+
 
 .clear-fix {
   overflow: auto;
@@ -169,6 +181,7 @@ img {
 
 span {
   padding: 5px;
+  color: #fff;
 }
 
 #lets-connect {
